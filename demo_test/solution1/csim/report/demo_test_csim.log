@@ -1,0 +1,27 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../test_tb/demo_test_tb.cpp in debug mode
+   Compiling ../../../src/demo_test.cpp in debug mode
+   Generating csim.exe
+i = 00
+data_ii = 00
+data_if = 00.500000
+data_outi = 02
+data_outof = 03.000000
+i = 01
+data_ii = 01
+data_if = 01.500000
+data_outi = 03
+data_outof = 04.000000
+i = 02
+data_ii = 02
+data_if = 02.500000
+data_outi = 04
+data_outof = 05.000000
+i = 03
+data_ii = 03
+data_if = 03.500000
+data_outi = 05
+data_outof = 06.000000
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

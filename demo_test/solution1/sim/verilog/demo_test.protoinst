@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"demo_test": {
+			"proto_instances": {
+			}
+		}
+	}
+}

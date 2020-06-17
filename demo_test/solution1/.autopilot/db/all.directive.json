@@ -1,0 +1,23 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "demo_test",
+          "label": "demo_test_label0",
+          "functionLabel": "",
+          "pragma": {"name": "LOOP_FLATTEN"}
+        },
+        {
+          "functionName": "demo_test",
+          "label": "demo_test_label1",
+          "functionLabel": "",
+          "pragma": {"name": "LOOP_FLATTEN"}
+        },
+        {
+          "functionName": "demo_test",
+          "label": "demo_test_label0",
+          "functionLabel": "",
+          "pragma": {"name": "LOOP_FLATTEN"}
+        }
+      ]
+    }]}

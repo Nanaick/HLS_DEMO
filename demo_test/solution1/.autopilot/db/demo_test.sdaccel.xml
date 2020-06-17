@@ -1,0 +1,159 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'demo_test'" level="0">
+<item name = "Date">Mon Jun 15 16:54:12 2020
+</item>
+<item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
+<item name = "Project">demo_test</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z030ffg676-2</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Target clock period (ns)">10.00</item>
+<item name = "Clock uncertainty (ns)">1.25</item>
+<item name = "Estimated clock period (ns)">8.588</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">21, 21, 21, 21, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- demo_test_label0">20, 20, 5, -, -, 4, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="DSP">-, -, -, -</column>
+<column name="Expression">-, -, 0, 38</column>
+<column name="FIFO">-, -, -, -</column>
+<column name="Instance">-, 2, 227, 438</column>
+<column name="Memory">-, -, -, -</column>
+<column name="Multiplexer">-, -, -, 31</column>
+<column name="Register">-, -, 302, -</column>
+<specialColumn name="Available">530, 400, 157200, 78600</specialColumn>
+<specialColumn name="Utilization (%)">0, ~0, ~0, ~0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="demo_test_fadd_32bkb_U1">demo_test_fadd_32bkb, 0, 2, 227, 404</column>
+<column name="demo_test_mux_42_cud_U2">demo_test_mux_42_cud, 0, 0, 0, 17</column>
+<column name="demo_test_mux_42_cud_U3">demo_test_mux_42_cud, 0, 0, 0, 17</column>
+</table>
+</item>
+<item name = "DSP48"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="7">Name, BRAM_18K, FF, LUT, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="i_1_fu_212_p2">+, 0, 0, 4, 3, 1</column>
+<column name="tmp_1_fu_249_p2">+, 0, 0, 32, 2, 32</column>
+<column name="exitcond_fu_206_p2">icmp, 0, 0, 2, 3, 4</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_NS_fsm">4, 7, 1, 7</column>
+<column name="fdataOutCtrl_0">3, 2, 32, 64</column>
+<column name="fdataOutCtrl_1">3, 2, 32, 64</column>
+<column name="fdataOutCtrl_2">3, 2, 32, 64</column>
+<column name="fdataOutCtrl_3">3, 2, 32, 64</column>
+<column name="i_reg_186">3, 2, 3, 6</column>
+<column name="idataOutCtrl_0">3, 2, 32, 64</column>
+<column name="idataOutCtrl_1">3, 2, 32, 64</column>
+<column name="idataOutCtrl_2">3, 2, 32, 64</column>
+<column name="idataOutCtrl_3">3, 2, 32, 64</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">6, 0, 6, 0</column>
+<column name="fdataOutCtrl_0_preg">32, 0, 32, 0</column>
+<column name="fdataOutCtrl_1_preg">32, 0, 32, 0</column>
+<column name="fdataOutCtrl_2_preg">32, 0, 32, 0</column>
+<column name="fdataOutCtrl_3_preg">32, 0, 32, 0</column>
+<column name="i_1_reg_262">3, 0, 3, 0</column>
+<column name="i_reg_186">3, 0, 3, 0</column>
+<column name="idataOutCtrl_0_preg">32, 0, 32, 0</column>
+<column name="idataOutCtrl_1_preg">32, 0, 32, 0</column>
+<column name="idataOutCtrl_2_preg">32, 0, 32, 0</column>
+<column name="idataOutCtrl_3_preg">32, 0, 32, 0</column>
+<column name="tmp_3_reg_272">32, 0, 32, 0</column>
+<column name="tmp_4_reg_267">2, 0, 2, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, demo_test, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, demo_test, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, demo_test, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, demo_test, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, demo_test, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, demo_test, return value</column>
+<column name="idataInCtrl_0">in, 32, ap_none, idataInCtrl_0, pointer</column>
+<column name="idataInCtrl_1">in, 32, ap_none, idataInCtrl_1, pointer</column>
+<column name="idataInCtrl_2">in, 32, ap_none, idataInCtrl_2, pointer</column>
+<column name="idataInCtrl_3">in, 32, ap_none, idataInCtrl_3, pointer</column>
+<column name="fdataInCtrl_0">in, 32, ap_none, fdataInCtrl_0, pointer</column>
+<column name="fdataInCtrl_1">in, 32, ap_none, fdataInCtrl_1, pointer</column>
+<column name="fdataInCtrl_2">in, 32, ap_none, fdataInCtrl_2, pointer</column>
+<column name="fdataInCtrl_3">in, 32, ap_none, fdataInCtrl_3, pointer</column>
+<column name="idataOutCtrl_0">out, 32, ap_none, idataOutCtrl_0, pointer</column>
+<column name="idataOutCtrl_1">out, 32, ap_none, idataOutCtrl_1, pointer</column>
+<column name="idataOutCtrl_2">out, 32, ap_none, idataOutCtrl_2, pointer</column>
+<column name="idataOutCtrl_3">out, 32, ap_none, idataOutCtrl_3, pointer</column>
+<column name="fdataOutCtrl_0">out, 32, ap_none, fdataOutCtrl_0, pointer</column>
+<column name="fdataOutCtrl_1">out, 32, ap_none, fdataOutCtrl_1, pointer</column>
+<column name="fdataOutCtrl_2">out, 32, ap_none, fdataOutCtrl_2, pointer</column>
+<column name="fdataOutCtrl_3">out, 32, ap_none, fdataOutCtrl_3, pointer</column>
+</table>
+</item>
+</section>
+
+<section name = "Critical Path" level="0">
+<item name = "Max Delay">8.59</item>
+<item name = "Critical Path Table"><table name="Critical Path Table" hasTotal="0">
+<keys size="15">Name, Operator, Delay, Accumulated Delay, Store Source, Resource, Core, Interface, Type, Port, Array, Scope, Pointer, Callee, Phi Node</keys>
+<column name="'tmp_2', demo_test/src/demo_test.cpp:23">fadd, 8.59, 8.59, -, -, -, -, -, -, -, -, -, -, -</column>
+</table>
+</item>
+</section>
+</profile>

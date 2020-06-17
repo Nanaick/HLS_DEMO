@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="demo_test.wdb" id="1">
+         <top_modules>
+            <top_module name="apatb_demo_test_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+   </zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group1" type="group">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group2" type="group">
+         <obj_property name="label">C Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group3" type="group">
+            <obj_property name="label">fdataOutCtrl(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/fdataOutCtrl_3" type="array">
+               <obj_property name="ElementShortName">fdataOutCtrl_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">fdataOutCtrl_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/fdataOutCtrl_2" type="array">
+               <obj_property name="ElementShortName">fdataOutCtrl_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">fdataOutCtrl_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/fdataOutCtrl_1" type="array">
+               <obj_property name="ElementShortName">fdataOutCtrl_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">fdataOutCtrl_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/fdataOutCtrl_0" type="array">
+               <obj_property name="ElementShortName">fdataOutCtrl_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">fdataOutCtrl_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group8" type="group">
+            <obj_property name="label">idataOutCtrl(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/idataOutCtrl_3" type="array">
+               <obj_property name="ElementShortName">idataOutCtrl_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">idataOutCtrl_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/idataOutCtrl_2" type="array">
+               <obj_property name="ElementShortName">idataOutCtrl_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">idataOutCtrl_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/idataOutCtrl_1" type="array">
+               <obj_property name="ElementShortName">idataOutCtrl_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">idataOutCtrl_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/idataOutCtrl_0" type="array">
+               <obj_property name="ElementShortName">idataOutCtrl_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">idataOutCtrl_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group13" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group14" type="group">
+            <obj_property name="label">fdataInCtrl(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/fdataInCtrl_3" type="array">
+               <obj_property name="ElementShortName">fdataInCtrl_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">fdataInCtrl_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/fdataInCtrl_2" type="array">
+               <obj_property name="ElementShortName">fdataInCtrl_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">fdataInCtrl_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/fdataInCtrl_1" type="array">
+               <obj_property name="ElementShortName">fdataInCtrl_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">fdataInCtrl_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/fdataInCtrl_0" type="array">
+               <obj_property name="ElementShortName">fdataInCtrl_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">fdataInCtrl_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group19" type="group">
+            <obj_property name="label">idataInCtrl(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/idataInCtrl_3" type="array">
+               <obj_property name="ElementShortName">idataInCtrl_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">idataInCtrl_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/idataInCtrl_2" type="array">
+               <obj_property name="ElementShortName">idataInCtrl_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">idataInCtrl_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/idataInCtrl_1" type="array">
+               <obj_property name="ElementShortName">idataInCtrl_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">idataInCtrl_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/idataInCtrl_0" type="array">
+               <obj_property name="ElementShortName">idataInCtrl_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">idataInCtrl_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group24" type="group">
+         <obj_property name="label">Block-level IO Handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/ap_idle" type="logic">
+            <obj_property name="ElementShortName">ap_idle</obj_property>
+            <obj_property name="ObjectShortName">ap_idle</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group29" type="group">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/ap_rst" type="logic">
+            <obj_property name="ElementShortName">ap_rst</obj_property>
+            <obj_property name="ObjectShortName">ap_rst</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group31" type="group">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_demo_test_top/AESL_inst_demo_test/ap_clk" type="logic">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group33" type="group">
+      <obj_property name="label">Test Bench Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group34" type="group">
+         <obj_property name="label">Internal Signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group35" type="group">
+            <obj_property name="label">Simulation Status</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_demo_test_top/AUTOTB_TRANSACTION_NUM" type="array">
+               <obj_property name="ElementShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="ObjectShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/ready_cnt" type="array">
+               <obj_property name="ElementShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/done_cnt" type="array">
+               <obj_property name="ElementShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group36" type="group">
+            <obj_property name="label">Port Depth</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_demo_test_top/LENGTH_idataInCtrl_0" type="array">
+               <obj_property name="ElementShortName">LENGTH_idataInCtrl_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_idataInCtrl_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/LENGTH_idataInCtrl_1" type="array">
+               <obj_property name="ElementShortName">LENGTH_idataInCtrl_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_idataInCtrl_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/LENGTH_idataInCtrl_2" type="array">
+               <obj_property name="ElementShortName">LENGTH_idataInCtrl_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_idataInCtrl_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/LENGTH_idataInCtrl_3" type="array">
+               <obj_property name="ElementShortName">LENGTH_idataInCtrl_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_idataInCtrl_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/LENGTH_fdataInCtrl_0" type="array">
+               <obj_property name="ElementShortName">LENGTH_fdataInCtrl_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_fdataInCtrl_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/LENGTH_fdataInCtrl_1" type="array">
+               <obj_property name="ElementShortName">LENGTH_fdataInCtrl_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_fdataInCtrl_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/LENGTH_fdataInCtrl_2" type="array">
+               <obj_property name="ElementShortName">LENGTH_fdataInCtrl_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_fdataInCtrl_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/LENGTH_fdataInCtrl_3" type="array">
+               <obj_property name="ElementShortName">LENGTH_fdataInCtrl_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_fdataInCtrl_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/LENGTH_idataOutCtrl_0" type="array">
+               <obj_property name="ElementShortName">LENGTH_idataOutCtrl_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_idataOutCtrl_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/LENGTH_idataOutCtrl_1" type="array">
+               <obj_property name="ElementShortName">LENGTH_idataOutCtrl_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_idataOutCtrl_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/LENGTH_idataOutCtrl_2" type="array">
+               <obj_property name="ElementShortName">LENGTH_idataOutCtrl_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_idataOutCtrl_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/LENGTH_idataOutCtrl_3" type="array">
+               <obj_property name="ElementShortName">LENGTH_idataOutCtrl_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_idataOutCtrl_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/LENGTH_fdataOutCtrl_0" type="array">
+               <obj_property name="ElementShortName">LENGTH_fdataOutCtrl_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_fdataOutCtrl_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/LENGTH_fdataOutCtrl_1" type="array">
+               <obj_property name="ElementShortName">LENGTH_fdataOutCtrl_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_fdataOutCtrl_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/LENGTH_fdataOutCtrl_2" type="array">
+               <obj_property name="ElementShortName">LENGTH_fdataOutCtrl_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_fdataOutCtrl_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/LENGTH_fdataOutCtrl_3" type="array">
+               <obj_property name="ElementShortName">LENGTH_fdataOutCtrl_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_fdataOutCtrl_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group56" type="group">
+         <obj_property name="label">C Outputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group57" type="group">
+            <obj_property name="label">fdataOutCtrl(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_demo_test_top/fdataOutCtrl_3" type="array">
+               <obj_property name="ElementShortName">fdataOutCtrl_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">fdataOutCtrl_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/fdataOutCtrl_2" type="array">
+               <obj_property name="ElementShortName">fdataOutCtrl_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">fdataOutCtrl_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/fdataOutCtrl_1" type="array">
+               <obj_property name="ElementShortName">fdataOutCtrl_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">fdataOutCtrl_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/fdataOutCtrl_0" type="array">
+               <obj_property name="ElementShortName">fdataOutCtrl_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">fdataOutCtrl_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group62" type="group">
+            <obj_property name="label">idataOutCtrl(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_demo_test_top/idataOutCtrl_3" type="array">
+               <obj_property name="ElementShortName">idataOutCtrl_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">idataOutCtrl_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/idataOutCtrl_2" type="array">
+               <obj_property name="ElementShortName">idataOutCtrl_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">idataOutCtrl_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/idataOutCtrl_1" type="array">
+               <obj_property name="ElementShortName">idataOutCtrl_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">idataOutCtrl_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/idataOutCtrl_0" type="array">
+               <obj_property name="ElementShortName">idataOutCtrl_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">idataOutCtrl_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group67" type="group">
+         <obj_property name="label">C Inputs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group68" type="group">
+            <obj_property name="label">fdataInCtrl(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_demo_test_top/fdataInCtrl_3" type="array">
+               <obj_property name="ElementShortName">fdataInCtrl_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">fdataInCtrl_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/fdataInCtrl_2" type="array">
+               <obj_property name="ElementShortName">fdataInCtrl_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">fdataInCtrl_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/fdataInCtrl_1" type="array">
+               <obj_property name="ElementShortName">fdataInCtrl_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">fdataInCtrl_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/fdataInCtrl_0" type="array">
+               <obj_property name="ElementShortName">fdataInCtrl_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">fdataInCtrl_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group73" type="group">
+            <obj_property name="label">idataInCtrl(wire)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_demo_test_top/idataInCtrl_3" type="array">
+               <obj_property name="ElementShortName">idataInCtrl_3[31:0]</obj_property>
+               <obj_property name="ObjectShortName">idataInCtrl_3[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/idataInCtrl_2" type="array">
+               <obj_property name="ElementShortName">idataInCtrl_2[31:0]</obj_property>
+               <obj_property name="ObjectShortName">idataInCtrl_2[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/idataInCtrl_1" type="array">
+               <obj_property name="ElementShortName">idataInCtrl_1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">idataInCtrl_1[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_demo_test_top/idataInCtrl_0" type="array">
+               <obj_property name="ElementShortName">idataInCtrl_0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">idataInCtrl_0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,220 @@
+
+
+================================================================
+== Vivado HLS Report for 'demo_test'
+================================================================
+* Date:           Mon Jun 15 16:54:12 2020
+
+* Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
+* Project:        demo_test
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z030ffg676-2
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     8.588|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |   21|   21|   21|   21|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +--------------------+-----+-----+----------+-----------+-----------+------+----------+
+        |                    |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        |      Loop Name     | min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +--------------------+-----+-----+----------+-----------+-----------+------+----------+
+        |- demo_test_label0  |   20|   20|         5|          -|          -|     4|    no    |
+        +--------------------+-----+-----+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 6
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / (!exitcond)
+3 --> 
+	4  / true
+4 --> 
+	5  / true
+5 --> 
+	6  / true
+6 --> 
+	2  / true
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.46>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %idataInCtrl_3), !map !7"   --->   Operation 7 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %idataInCtrl_2), !map !13"   --->   Operation 8 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %idataInCtrl_1), !map !19"   --->   Operation 9 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %idataInCtrl_0), !map !25"   --->   Operation 10 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(float* %fdataInCtrl_3), !map !31"   --->   Operation 11 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(float* %fdataInCtrl_2), !map !35"   --->   Operation 12 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(float* %fdataInCtrl_1), !map !39"   --->   Operation 13 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(float* %fdataInCtrl_0), !map !43"   --->   Operation 14 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %idataOutCtrl_3), !map !47"   --->   Operation 15 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %idataOutCtrl_2), !map !51"   --->   Operation 16 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %idataOutCtrl_1), !map !55"   --->   Operation 17 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %idataOutCtrl_0), !map !59"   --->   Operation 18 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(float* %fdataOutCtrl_3), !map !63"   --->   Operation 19 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(float* %fdataOutCtrl_2), !map !67"   --->   Operation 20 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(float* %fdataOutCtrl_1), !map !71"   --->   Operation 21 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(float* %fdataOutCtrl_0), !map !75"   --->   Operation 22 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecTopModule([10 x i8]* @demo_test_str) nounwind"   --->   Operation 23 'spectopmodule' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %idataInCtrl_0, i32* %idataInCtrl_1, i32* %idataInCtrl_2, i32* %idataInCtrl_3, [8 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [demo_test/src/demo_test.cpp:13]   --->   Operation 24 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(i32* %idataOutCtrl_0, i32* %idataOutCtrl_1, i32* %idataOutCtrl_2, i32* %idataOutCtrl_3, [8 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [demo_test/src/demo_test.cpp:14]   --->   Operation 25 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(float* %fdataInCtrl_0, float* %fdataInCtrl_1, float* %fdataInCtrl_2, float* %fdataInCtrl_3, [8 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [demo_test/src/demo_test.cpp:15]   --->   Operation 26 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecInterface(float* %fdataOutCtrl_0, float* %fdataOutCtrl_1, float* %fdataOutCtrl_2, float* %fdataOutCtrl_3, [8 x i8]* @p_str2, i32 0, i32 0, [1 x i8]* @p_str1, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind" [demo_test/src/demo_test.cpp:16]   --->   Operation 27 'specinterface' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (0.46ns)   --->   "br label %1" [demo_test/src/demo_test.cpp:21]   --->   Operation 28 'br' <Predicate = true> <Delay = 0.46>
+
+State 2 <SV = 1> <Delay = 1.42>
+ST_2 : Operation 29 [1/1] (0.00ns)   --->   "%i = phi i3 [ 0, %0 ], [ %i_1, %3 ]"   --->   Operation 29 'phi' 'i' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 30 [1/1] (0.98ns)   --->   "%exitcond = icmp eq i3 %i, -4" [demo_test/src/demo_test.cpp:21]   --->   Operation 30 'icmp' 'exitcond' <Predicate = true> <Delay = 0.98> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.98> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 31 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 4, i64 4, i64 4) nounwind"   --->   Operation 31 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 32 [1/1] (0.76ns)   --->   "%i_1 = add i3 %i, 1" [demo_test/src/demo_test.cpp:21]   --->   Operation 32 'add' 'i_1' <Predicate = true> <Delay = 0.76> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.89> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 33 [1/1] (0.00ns)   --->   "br i1 %exitcond, label %4, label %2" [demo_test/src/demo_test.cpp:21]   --->   Operation 33 'br' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 34 [1/1] (0.00ns)   --->   "%tmp_4 = trunc i3 %i to i2" [demo_test/src/demo_test.cpp:22]   --->   Operation 34 'trunc' 'tmp_4' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_2 : Operation 35 [1/1] (0.00ns)   --->   "%fdataInCtrl_0_read = call float @_ssdm_op_Read.ap_none.floatP(float* %fdataInCtrl_0)" [demo_test/src/demo_test.cpp:23]   --->   Operation 35 'read' 'fdataInCtrl_0_read' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_2 : Operation 36 [1/1] (0.00ns)   --->   "%fdataInCtrl_1_read = call float @_ssdm_op_Read.ap_none.floatP(float* %fdataInCtrl_1)" [demo_test/src/demo_test.cpp:23]   --->   Operation 36 'read' 'fdataInCtrl_1_read' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_2 : Operation 37 [1/1] (0.00ns)   --->   "%fdataInCtrl_2_read = call float @_ssdm_op_Read.ap_none.floatP(float* %fdataInCtrl_2)" [demo_test/src/demo_test.cpp:23]   --->   Operation 37 'read' 'fdataInCtrl_2_read' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_2 : Operation 38 [1/1] (0.00ns)   --->   "%fdataInCtrl_3_read = call float @_ssdm_op_Read.ap_none.floatP(float* %fdataInCtrl_3)" [demo_test/src/demo_test.cpp:23]   --->   Operation 38 'read' 'fdataInCtrl_3_read' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_2 : Operation 39 [1/1] (1.42ns)   --->   "%tmp_3 = call float @_ssdm_op_Mux.ap_auto.4float.i2(float %fdataInCtrl_0_read, float %fdataInCtrl_1_read, float %fdataInCtrl_2_read, float %fdataInCtrl_3_read, i2 %tmp_4)" [demo_test/src/demo_test.cpp:23]   --->   Operation 39 'mux' 'tmp_3' <Predicate = (!exitcond)> <Delay = 1.42> <Core = "MuxnS">   --->   Core 31 'MuxnS' <Latency = 0> <II = 1> <Delay = 1.42> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 40 [1/1] (0.00ns)   --->   "ret void" [demo_test/src/demo_test.cpp:25]   --->   Operation 40 'ret' <Predicate = (exitcond)> <Delay = 0.00>
+
+State 3 <SV = 2> <Delay = 8.58>
+ST_3 : Operation 41 [4/4] (8.58ns)   --->   "%tmp_2 = fadd float %tmp_3, 2.500000e+00" [demo_test/src/demo_test.cpp:23]   --->   Operation 41 'fadd' 'tmp_2' <Predicate = true> <Delay = 8.58> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 8.58> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 4 <SV = 3> <Delay = 8.58>
+ST_4 : Operation 42 [3/4] (8.58ns)   --->   "%tmp_2 = fadd float %tmp_3, 2.500000e+00" [demo_test/src/demo_test.cpp:23]   --->   Operation 42 'fadd' 'tmp_2' <Predicate = true> <Delay = 8.58> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 8.58> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 5 <SV = 4> <Delay = 8.58>
+ST_5 : Operation 43 [2/4] (8.58ns)   --->   "%tmp_2 = fadd float %tmp_3, 2.500000e+00" [demo_test/src/demo_test.cpp:23]   --->   Operation 43 'fadd' 'tmp_2' <Predicate = true> <Delay = 8.58> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 8.58> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+
+State 6 <SV = 5> <Delay = 8.58>
+ST_6 : Operation 44 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecLoopName([17 x i8]* @p_str3) nounwind" [demo_test/src/demo_test.cpp:21]   --->   Operation 44 'specloopname' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 45 [1/1] (0.00ns)   --->   "%idataInCtrl_0_read = call i32 @_ssdm_op_Read.ap_none.i32P(i32* %idataInCtrl_0)" [demo_test/src/demo_test.cpp:22]   --->   Operation 45 'read' 'idataInCtrl_0_read' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 46 [1/1] (0.00ns)   --->   "%idataInCtrl_1_read = call i32 @_ssdm_op_Read.ap_none.i32P(i32* %idataInCtrl_1)" [demo_test/src/demo_test.cpp:22]   --->   Operation 46 'read' 'idataInCtrl_1_read' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 47 [1/1] (0.00ns)   --->   "%idataInCtrl_2_read = call i32 @_ssdm_op_Read.ap_none.i32P(i32* %idataInCtrl_2)" [demo_test/src/demo_test.cpp:22]   --->   Operation 47 'read' 'idataInCtrl_2_read' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 48 [1/1] (0.00ns)   --->   "%idataInCtrl_3_read = call i32 @_ssdm_op_Read.ap_none.i32P(i32* %idataInCtrl_3)" [demo_test/src/demo_test.cpp:22]   --->   Operation 48 'read' 'idataInCtrl_3_read' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 49 [1/1] (1.42ns)   --->   "%tmp = call i32 @_ssdm_op_Mux.ap_auto.4i32.i2(i32 %idataInCtrl_0_read, i32 %idataInCtrl_1_read, i32 %idataInCtrl_2_read, i32 %idataInCtrl_3_read, i2 %tmp_4)" [demo_test/src/demo_test.cpp:22]   --->   Operation 49 'mux' 'tmp' <Predicate = true> <Delay = 1.42> <Core = "MuxnS">   --->   Core 31 'MuxnS' <Latency = 0> <II = 1> <Delay = 1.42> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 50 [1/1] (1.89ns)   --->   "%tmp_1 = add i32 2, %tmp" [demo_test/src/demo_test.cpp:22]   --->   Operation 50 'add' 'tmp_1' <Predicate = true> <Delay = 1.89> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.89> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 51 [1/4] (8.58ns)   --->   "%tmp_2 = fadd float %tmp_3, 2.500000e+00" [demo_test/src/demo_test.cpp:23]   --->   Operation 51 'fadd' 'tmp_2' <Predicate = true> <Delay = 8.58> <Core = "FAddSub">   --->   Core 104 'FAddSub' <Latency = 3> <II = 1> <Delay = 8.58> <FuncUnit> <Opcode : 'fadd' 'fsub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 52 [1/1] (0.96ns)   --->   "switch i2 %tmp_4, label %branch311 [
+    i2 0, label %branch08
+    i2 1, label %branch19
+    i2 -2, label %branch210
+  ]" [demo_test/src/demo_test.cpp:22]   --->   Operation 52 'switch' <Predicate = true> <Delay = 0.96>
+ST_6 : Operation 53 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_none.i32P(i32* %idataOutCtrl_2, i32 %tmp_1)" [demo_test/src/demo_test.cpp:22]   --->   Operation 53 'write' <Predicate = (tmp_4 == 2)> <Delay = 0.00>
+ST_6 : Operation 54 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_none.floatP(float* %fdataOutCtrl_2, float %tmp_2)" [demo_test/src/demo_test.cpp:23]   --->   Operation 54 'write' <Predicate = (tmp_4 == 2)> <Delay = 0.00>
+ST_6 : Operation 55 [1/1] (0.00ns)   --->   "br label %3"   --->   Operation 55 'br' <Predicate = (tmp_4 == 2)> <Delay = 0.00>
+ST_6 : Operation 56 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_none.i32P(i32* %idataOutCtrl_1, i32 %tmp_1)" [demo_test/src/demo_test.cpp:22]   --->   Operation 56 'write' <Predicate = (tmp_4 == 1)> <Delay = 0.00>
+ST_6 : Operation 57 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_none.floatP(float* %fdataOutCtrl_1, float %tmp_2)" [demo_test/src/demo_test.cpp:23]   --->   Operation 57 'write' <Predicate = (tmp_4 == 1)> <Delay = 0.00>
+ST_6 : Operation 58 [1/1] (0.00ns)   --->   "br label %3"   --->   Operation 58 'br' <Predicate = (tmp_4 == 1)> <Delay = 0.00>
+ST_6 : Operation 59 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_none.i32P(i32* %idataOutCtrl_0, i32 %tmp_1)" [demo_test/src/demo_test.cpp:22]   --->   Operation 59 'write' <Predicate = (tmp_4 == 0)> <Delay = 0.00>
+ST_6 : Operation 60 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_none.floatP(float* %fdataOutCtrl_0, float %tmp_2)" [demo_test/src/demo_test.cpp:23]   --->   Operation 60 'write' <Predicate = (tmp_4 == 0)> <Delay = 0.00>
+ST_6 : Operation 61 [1/1] (0.00ns)   --->   "br label %3"   --->   Operation 61 'br' <Predicate = (tmp_4 == 0)> <Delay = 0.00>
+ST_6 : Operation 62 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_none.i32P(i32* %idataOutCtrl_3, i32 %tmp_1)" [demo_test/src/demo_test.cpp:22]   --->   Operation 62 'write' <Predicate = (tmp_4 == 3)> <Delay = 0.00>
+ST_6 : Operation 63 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_none.floatP(float* %fdataOutCtrl_3, float %tmp_2)" [demo_test/src/demo_test.cpp:23]   --->   Operation 63 'write' <Predicate = (tmp_4 == 3)> <Delay = 0.00>
+ST_6 : Operation 64 [1/1] (0.00ns)   --->   "br label %3"   --->   Operation 64 'br' <Predicate = (tmp_4 == 3)> <Delay = 0.00>
+ST_6 : Operation 65 [1/1] (0.00ns)   --->   "br label %1" [demo_test/src/demo_test.cpp:21]   --->   Operation 65 'br' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 0.466ns
+The critical path consists of the following:
+	multiplexor before 'phi' operation ('i') with incoming values : ('i', demo_test/src/demo_test.cpp:21) [40]  (0.466 ns)
+
+ <State 2>: 1.42ns
+The critical path consists of the following:
+	'phi' operation ('i') with incoming values : ('i', demo_test/src/demo_test.cpp:21) [40]  (0 ns)
+	'mux' operation ('tmp_3', demo_test/src/demo_test.cpp:23) [58]  (1.42 ns)
+
+ <State 3>: 8.59ns
+The critical path consists of the following:
+	'fadd' operation ('tmp_2', demo_test/src/demo_test.cpp:23) [59]  (8.59 ns)
+
+ <State 4>: 8.59ns
+The critical path consists of the following:
+	'fadd' operation ('tmp_2', demo_test/src/demo_test.cpp:23) [59]  (8.59 ns)
+
+ <State 5>: 8.59ns
+The critical path consists of the following:
+	'fadd' operation ('tmp_2', demo_test/src/demo_test.cpp:23) [59]  (8.59 ns)
+
+ <State 6>: 8.59ns
+The critical path consists of the following:
+	'fadd' operation ('tmp_2', demo_test/src/demo_test.cpp:23) [59]  (8.59 ns)
+	wire write on port 'fdataOutCtrl_2' (demo_test/src/demo_test.cpp:23) [63]  (0 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

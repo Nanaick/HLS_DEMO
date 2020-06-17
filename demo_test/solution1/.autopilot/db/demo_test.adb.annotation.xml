@@ -1,0 +1,11 @@
+<annotationInfo>
+<annotationInfo>
+<item  id="41" filename="demo_test/src/demo_test.cpp" linenumber="21" name="exitcond" contextFuncName="demo_test" moduleName="demo_test" rtlName="exitcond_fu_206_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="2" fileDirectory="G:\QH_WORK\Demo\hls_prj"><\/item>
+<item  id="43" filename="demo_test/src/demo_test.cpp" linenumber="21" name="i_1" contextFuncName="demo_test" moduleName="demo_test" rtlName="i_1_fu_212_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="4" fileDirectory="G:\QH_WORK\Demo\hls_prj"><\/item>
+<item  id="47" filename="demo_test/src/demo_test.cpp" linenumber="22" name="tmp_4" contextFuncName="demo_test" moduleName="demo_test" rtlName="tmp_4_fu_218_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="G:\QH_WORK\Demo\hls_prj"><\/item>
+<item  id="52" filename="demo_test/src/demo_test.cpp" linenumber="22" name="tmp" contextFuncName="demo_test" moduleName="demo_test" rtlName="demo_test_mux_42_cud_U3" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="G:\QH_WORK\Demo\hls_prj"><\/item>
+<item  id="53" filename="demo_test/src/demo_test.cpp" linenumber="22" name="tmp_1" contextFuncName="demo_test" moduleName="demo_test" rtlName="tmp_1_fu_249_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="32" fileDirectory="G:\QH_WORK\Demo\hls_prj"><\/item>
+<item  id="58" filename="demo_test/src/demo_test.cpp" linenumber="23" name="tmp_3" contextFuncName="demo_test" moduleName="demo_test" rtlName="demo_test_mux_42_cud_U2" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="G:\QH_WORK\Demo\hls_prj"><\/item>
+<item  id="59" filename="demo_test/src/demo_test.cpp" linenumber="23" name="tmp_2" contextFuncName="demo_test" moduleName="demo_test" rtlName="demo_test_fadd_32bkb_U1" latency="3" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="G:\QH_WORK\Demo\hls_prj"><\/item>
+<\/annotationInfo>
+</annotationInfo>

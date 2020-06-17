@@ -1,0 +1,7 @@
+vhdl xil_defaultlib "ip/xil_defaultlib/demo_test_ap_fadd_2_full_dsp_32.vhd"
+sv work "glbl.v"
+sv xil_defaultlib "demo_test.autotb.v"
+sv xil_defaultlib "demo_test.v"
+sv xil_defaultlib "demo_test_fadd_32bkb.v"
+sv xil_defaultlib "demo_test_mux_42_cud.v"
+

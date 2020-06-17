@@ -1,0 +1,174 @@
+
+
+================================================================
+== Vivado HLS Report for 'demo_test'
+================================================================
+* Date:           Mon Jun 15 16:54:12 2020
+
+* Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
+* Project:        demo_test
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z030ffg676-2
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     8.588|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |   21|   21|   21|   21|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +--------------------+-----+-----+----------+-----------+-----------+------+----------+
+        |                    |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        |      Loop Name     | min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +--------------------+-----+-----+----------+-----------+-----------+------+----------+
+        |- demo_test_label0  |   20|   20|         5|          -|          -|     4|    no    |
+        +--------------------+-----+-----+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|DSP              |        -|      -|       -|      -|
+|Expression       |        -|      -|       0|     38|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        -|      2|     227|    438|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|     31|
+|Register         |        -|      -|     302|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        0|      2|     529|    507|
++-----------------+---------+-------+--------+-------+
+|Available        |      530|    400|  157200|  78600|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        0|   ~0  |   ~0   |   ~0  |
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    +-------------------------+----------------------+---------+-------+-----+-----+
+    |         Instance        |        Module        | BRAM_18K| DSP48E|  FF | LUT |
+    +-------------------------+----------------------+---------+-------+-----+-----+
+    |demo_test_fadd_32bkb_U1  |demo_test_fadd_32bkb  |        0|      2|  227|  404|
+    |demo_test_mux_42_cud_U2  |demo_test_mux_42_cud  |        0|      0|    0|   17|
+    |demo_test_mux_42_cud_U3  |demo_test_mux_42_cud  |        0|      0|    0|   17|
+    +-------------------------+----------------------+---------+-------+-----+-----+
+    |Total                    |                      |        0|      2|  227|  438|
+    +-------------------------+----------------------+---------+-------+-----+-----+
+
+    * DSP48: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +--------------------+----------+-------+---+----+------------+------------+
+    |    Variable Name   | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +--------------------+----------+-------+---+----+------------+------------+
+    |i_1_fu_212_p2       |     +    |      0|  0|   4|           3|           1|
+    |tmp_1_fu_249_p2     |     +    |      0|  0|  32|           2|          32|
+    |exitcond_fu_206_p2  |   icmp   |      0|  0|   2|           3|           4|
+    +--------------------+----------+-------+---+----+------------+------------+
+    |Total               |          |      0|  0|  38|           8|          37|
+    +--------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +----------------+----+-----------+-----+-----------+
+    |      Name      | LUT| Input Size| Bits| Total Bits|
+    +----------------+----+-----------+-----+-----------+
+    |ap_NS_fsm       |   4|          7|    1|          7|
+    |fdataOutCtrl_0  |   3|          2|   32|         64|
+    |fdataOutCtrl_1  |   3|          2|   32|         64|
+    |fdataOutCtrl_2  |   3|          2|   32|         64|
+    |fdataOutCtrl_3  |   3|          2|   32|         64|
+    |i_reg_186       |   3|          2|    3|          6|
+    |idataOutCtrl_0  |   3|          2|   32|         64|
+    |idataOutCtrl_1  |   3|          2|   32|         64|
+    |idataOutCtrl_2  |   3|          2|   32|         64|
+    |idataOutCtrl_3  |   3|          2|   32|         64|
+    +----------------+----+-----------+-----+-----------+
+    |Total           |  31|         25|  260|        525|
+    +----------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +---------------------+----+----+-----+-----------+
+    |         Name        | FF | LUT| Bits| Const Bits|
+    +---------------------+----+----+-----+-----------+
+    |ap_CS_fsm            |   6|   0|    6|          0|
+    |fdataOutCtrl_0_preg  |  32|   0|   32|          0|
+    |fdataOutCtrl_1_preg  |  32|   0|   32|          0|
+    |fdataOutCtrl_2_preg  |  32|   0|   32|          0|
+    |fdataOutCtrl_3_preg  |  32|   0|   32|          0|
+    |i_1_reg_262          |   3|   0|    3|          0|
+    |i_reg_186            |   3|   0|    3|          0|
+    |idataOutCtrl_0_preg  |  32|   0|   32|          0|
+    |idataOutCtrl_1_preg  |  32|   0|   32|          0|
+    |idataOutCtrl_2_preg  |  32|   0|   32|          0|
+    |idataOutCtrl_3_preg  |  32|   0|   32|          0|
+    |tmp_3_reg_272        |  32|   0|   32|          0|
+    |tmp_4_reg_267        |   2|   0|    2|          0|
+    +---------------------+----+----+-----+-----------+
+    |Total                | 302|   0|  302|          0|
+    +---------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------+-----+-----+------------+----------------+--------------+
+|    RTL Ports   | Dir | Bits|  Protocol  |  Source Object |    C Type    |
++----------------+-----+-----+------------+----------------+--------------+
+|ap_clk          |  in |    1| ap_ctrl_hs |    demo_test   | return value |
+|ap_rst          |  in |    1| ap_ctrl_hs |    demo_test   | return value |
+|ap_start        |  in |    1| ap_ctrl_hs |    demo_test   | return value |
+|ap_done         | out |    1| ap_ctrl_hs |    demo_test   | return value |
+|ap_idle         | out |    1| ap_ctrl_hs |    demo_test   | return value |
+|ap_ready        | out |    1| ap_ctrl_hs |    demo_test   | return value |
+|idataInCtrl_0   |  in |   32|   ap_none  |  idataInCtrl_0 |    pointer   |
+|idataInCtrl_1   |  in |   32|   ap_none  |  idataInCtrl_1 |    pointer   |
+|idataInCtrl_2   |  in |   32|   ap_none  |  idataInCtrl_2 |    pointer   |
+|idataInCtrl_3   |  in |   32|   ap_none  |  idataInCtrl_3 |    pointer   |
+|fdataInCtrl_0   |  in |   32|   ap_none  |  fdataInCtrl_0 |    pointer   |
+|fdataInCtrl_1   |  in |   32|   ap_none  |  fdataInCtrl_1 |    pointer   |
+|fdataInCtrl_2   |  in |   32|   ap_none  |  fdataInCtrl_2 |    pointer   |
+|fdataInCtrl_3   |  in |   32|   ap_none  |  fdataInCtrl_3 |    pointer   |
+|idataOutCtrl_0  | out |   32|   ap_none  | idataOutCtrl_0 |    pointer   |
+|idataOutCtrl_1  | out |   32|   ap_none  | idataOutCtrl_1 |    pointer   |
+|idataOutCtrl_2  | out |   32|   ap_none  | idataOutCtrl_2 |    pointer   |
+|idataOutCtrl_3  | out |   32|   ap_none  | idataOutCtrl_3 |    pointer   |
+|fdataOutCtrl_0  | out |   32|   ap_none  | fdataOutCtrl_0 |    pointer   |
+|fdataOutCtrl_1  | out |   32|   ap_none  | fdataOutCtrl_1 |    pointer   |
+|fdataOutCtrl_2  | out |   32|   ap_none  | fdataOutCtrl_2 |    pointer   |
+|fdataOutCtrl_3  | out |   32|   ap_none  | fdataOutCtrl_3 |    pointer   |
++----------------+-----+-----+------------+----------------+--------------+
+

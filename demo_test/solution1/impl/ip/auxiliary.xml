@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="demo_test" xd:componentRef="demo_test" xd:initiationInterval="22" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="idataInCtrl[0]" xd:originalName="idataInCtrl0" xd:direction="in" xd:interfaceRef="idataInCtrl_0" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:arraySize="1"/>
+  <xd:arg xd:name="idataInCtrl[1]" xd:originalName="idataInCtrl1" xd:direction="in" xd:interfaceRef="idataInCtrl_1" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:arraySize="1"/>
+  <xd:arg xd:name="idataInCtrl[2]" xd:originalName="idataInCtrl2" xd:direction="in" xd:interfaceRef="idataInCtrl_2" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:arraySize="1"/>
+  <xd:arg xd:name="idataInCtrl[3]" xd:originalName="idataInCtrl3" xd:direction="in" xd:interfaceRef="idataInCtrl_3" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:arraySize="1"/>
+  <xd:arg xd:name="fdataInCtrl[0]" xd:originalName="fdataInCtrl0" xd:direction="in" xd:interfaceRef="fdataInCtrl_0" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:arraySize="1"/>
+  <xd:arg xd:name="fdataInCtrl[1]" xd:originalName="fdataInCtrl1" xd:direction="in" xd:interfaceRef="fdataInCtrl_1" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:arraySize="1"/>
+  <xd:arg xd:name="fdataInCtrl[2]" xd:originalName="fdataInCtrl2" xd:direction="in" xd:interfaceRef="fdataInCtrl_2" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:arraySize="1"/>
+  <xd:arg xd:name="fdataInCtrl[3]" xd:originalName="fdataInCtrl3" xd:direction="in" xd:interfaceRef="fdataInCtrl_3" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:arraySize="1"/>
+  <xd:arg xd:name="idataOutCtrl[0]" xd:originalName="idataOutCtrl0" xd:direction="out" xd:interfaceRef="idataOutCtrl_0" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="5" xd:arraySize="1"/>
+  <xd:arg xd:name="idataOutCtrl[1]" xd:originalName="idataOutCtrl1" xd:direction="out" xd:interfaceRef="idataOutCtrl_1" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="5" xd:arraySize="1"/>
+  <xd:arg xd:name="idataOutCtrl[2]" xd:originalName="idataOutCtrl2" xd:direction="out" xd:interfaceRef="idataOutCtrl_2" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="5" xd:arraySize="1"/>
+  <xd:arg xd:name="idataOutCtrl[3]" xd:originalName="idataOutCtrl3" xd:direction="out" xd:interfaceRef="idataOutCtrl_3" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="5" xd:arraySize="1"/>
+  <xd:arg xd:name="fdataOutCtrl[0]" xd:originalName="fdataOutCtrl0" xd:direction="out" xd:interfaceRef="fdataOutCtrl_0" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="5" xd:arraySize="1"/>
+  <xd:arg xd:name="fdataOutCtrl[1]" xd:originalName="fdataOutCtrl1" xd:direction="out" xd:interfaceRef="fdataOutCtrl_1" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="5" xd:arraySize="1"/>
+  <xd:arg xd:name="fdataOutCtrl[2]" xd:originalName="fdataOutCtrl2" xd:direction="out" xd:interfaceRef="fdataOutCtrl_2" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="5" xd:arraySize="1"/>
+  <xd:arg xd:name="fdataOutCtrl[3]" xd:originalName="fdataOutCtrl3" xd:direction="out" xd:interfaceRef="fdataOutCtrl_3" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32" xd:firstOut="5" xd:arraySize="1"/>
+  <xd:latencyEstimates xd:best-case="21" xd:worst-case="21" xd:average-case="21"/>
+  <xd:resourceEstimates xd:LUT="507" xd:FF="529" xd:BRAM="0" xd:DSP="2"/>
+</xd:acceleratorMap>
